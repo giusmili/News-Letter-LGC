@@ -1,0 +1,45 @@
+.dist/
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# PHP
+/vendor/
+
+# Environnements
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE / Éditeurs
+.vscode/
+.idea/
+
+# Build / Dist
+dist/
+build/
+out/
+*.min.*
+*.map
+
+# Cache
+.cache/
+tmp/
+temp/
+
+# OS divers
+*.swp
+*.swo
