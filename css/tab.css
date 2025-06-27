@@ -1,0 +1,36 @@
+/* style="background-color: #58c; color: white;" */
+
+html{
+    font-size: 62.5%;
+}
+body{
+    font: 1.6rem Arial, sans-serif;
+    margin: 0;
+  
+}
+table {
+    max-width: 120rem;
+    border-collapse: collapse;
+    background-color: #fff;
+    margin: 5rem auto;
+        th, td {
+        padding: 1rem;
+        text-align: left;
+        border: .1rem solid #ddd;
+        
+    }
+    thead th:nth-of-type(5) {
+        background-color: #222;
+        width: 10%;
+    }
+    thead th {
+        background-color: #222;
+        color: white;
+        font-weight: bold;
+        text-align: center;
+        font-weight: 100;
+        text-transform: uppercase;
+        font-size: inherit;
+    }
+    
+}
