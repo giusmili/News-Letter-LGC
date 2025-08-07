@@ -9,7 +9,8 @@ mindmap
       Cible
       Contraintes
       Benchmark
-    Architecture de l'information
+     ::icon(fa fa-cog) 
+     Architecture de l'information
       Sitemap
       Wireframes
       UX Design
@@ -37,3 +38,5 @@ mindmap
       Mises à jour
       Support
 ```
+
+> Langage MD pour créer des mindMap
