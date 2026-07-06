@@ -3,356 +3,489 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="color-scheme" content="light" />
+    <meta name="supported-color-schemes" content="light" />
     <title>Communication LGC</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=swap"
       rel="stylesheet"
     />
+    <!--[if mso]>
+    <style type="text/css">
+      table { border-collapse: collapse; }
+      body, td, p, span { font-family: Arial, Helvetica, sans-serif !important; }
+    </style>
+    <![endif]-->
   </head>
   <!--Newsletter La Grande Classe -->
   <body
-    style="margin: 1%; background: #f3f4f6; font-family: 'Matangi', sans-serif"
+    style="
+      margin: 0;
+      padding: 0;
+      background: #f3f4f6;
+      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+    "
   >
+    <!-- Texte d'aperçu (masqué, affiché dans la liste des mails) -->
     <div
       style="
-        max-width: 600px;
-        margin: 32px auto;
-        background: #fff;
-        border-radius: 12px;
-        box-shadow: 0 4px 24px #0001;
+        display: none;
+        max-height: 0;
         overflow: hidden;
+        mso-hide: all;
+        font-size: 1px;
+        line-height: 1px;
+        color: #f3f4f6;
+        opacity: 0;
       "
     >
-      <header
-        style="
-          background: #1e293b;
-          padding: 32px 24px 16px 24px;
-          text-align: center;
-        "
-      >
-        <h1
-          style="
-            margin: 0;
-            font-size: 2rem;
-            color: #fff;
-            font-weight: 600;
-            text-align: center;
-          "
-        >
-          <img
-            src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/logo_blanc.png"
-            alt="logo"
-            style="display: inline-block; width: 70%"
-          />
-        </h1>
-        <p style="margin: 0; font-size: 1rem; color: #cbd5e1">
-          Newsletter - octobre 2025
-        </p>
-      </header>
-      <main style="padding: 24px">
-        <h2
-          style="
-            color: #1e293b;
-            font-size: 1.25rem;
-            margin: 16px;
-            font-weight: 600;
-          "
-        >
-          <img
-            src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
-            alt="LinkedIn"
-            style="
-              vertical-align: middle;
-              width: 24px;
-              height: 24px;
-              margin-right: 8px;
-            "
-          />
-          Nos dernières actualités sur LinkedIn
-        </h2>
-
-        <!-- actualité du jour -->
-        <figure
-          style="
-            background: #f1f5f9;
-            border-radius: 8px;
-            padding: 16px;
-            margin: 0 0 24px 0;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-          "
-        >
-          <img
-            src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/halloween.png"
-            alt="inscriptions ouvertes"
-            width="96"
-            height="96"
-            style="
-              border-radius: 8px;
-              object-fit: cover;
-              border: 2px solid #e2e8f0;
-            "
-          />
-          <div style="flex: 1">
-            <figcaption
-              style="
-                font-weight: 600;
-                color: #0f172a;
-                font-size: 1.1rem;
-                margin: 10px;
-              "
-            >
-              C'est Halloween!
-            </figcaption>
-            <p style="margin: 10px; color: #334155; font-size: 0.98rem">
-              À La Grande Classe, même les esprits curieux trouvent leur
-              voie… L’apprentissage n’a jamais été aussi envoûtant.
-            </p>
-            <span
-              style="
-                display: inline-block;
-                margin: 8px;
-                color: #64748b;
-                font-size: 0.7rem;
-              "
-            >
-              <img
-                src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
-                alt="calendrier"
-                style="
-                  vertical-align: middle;
-                  width: 16px;
-                  height: 16px;
-                  margin-right: 6px;
-                "
-              />Publié le 21 octobre 2025
-            </span>
-          </div>
-        </figure>
-
-        <!-- deuxième actu-->
-
-        <figure
-          style="
-            background: #f1f5f9;
-            border-radius: 8px;
-            padding: 16px;
-            margin: 0 0 24px 0;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-          "
-        >
-          <img
-            src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/refs/heads/lgc-ecole/asset/burger_poulet.png"
-            alt="pause déjeuner"
-            width="96"
-            height="96"
-            style="
-              border-radius: 8px;
-              object-fit: cover;
-              border: 2px solid #e2e8f0;
-            "
-          />
-          <div style="flex: 1">
-            <figcaption
-              style="
-                font-weight: 600;
-                color: #0f172a;
-                font-size: 1.1rem;
-                margin: 10px;
-              "
-            >
-              Coulisses gourmandes : la pause déjeuner
-            </figcaption>
-            <p style="margin: 10px; color: #334155; font-size: 0.98rem">
-              Nos étudiants de la filière restauration signent un menu complet,
-              équilibré et savoureux — savoir‑faire, passion et exigence au
-              service du goût.
-            </p>
-            <span
-              style="
-                display: inline-block;
-                margin: 8px;
-                color: #64748b;
-                font-size: 0.7rem;
-              "
-            >
-              <img
-                src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
-                alt="calendrier"
-                style="
-                  vertical-align: middle;
-                  width: 16px;
-                  height: 16px;
-                  margin-right: 6px;
-                "
-              />Publié le 20 octobre 2025
-            </span>
-          </div>
-        </figure>
-
-        <!--troisieme actu-->
-
-        <figure
-          style="
-            background: #f1f5f9;
-            border-radius: 8px;
-            padding: 16px;
-            margin: 0 0 24px 0;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-          "
-        >
-          <img
-            src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/refs/heads/lgc-ecole/asset/tasse_cafe.png"
-            alt="événement"
-            width="96"
-            height="96"
-            style="
-              border-radius: 8px;
-              object-fit: cover;
-              border: 2px solid #e2e8f0;
-            "
-          />
-          <div style="flex: 1">
-            <figcaption
-              style="
-                font-weight: 600;
-                margin: 10px;
-                color: #0f172a;
-                font-size: 1.1rem;
-              "
-            >
-              LGC accélère son innovation digitale
-            </figcaption>
-            <p style="margin: 8px; color: #334155; font-size: 0.98rem">
-              Nous lançons notre pôle digital pour accélérer l’innovation,
-              amplifier notre visibilité et proposer une expérience apprenante
-              encore plus engageante.
-            </p>
-            <span
-              style="
-                display: inline-block;
-                margin: 8px;
-                color: #64748b;
-                font-size: 0.7rem;
-              "
-            >
-              <img
-                src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
-                alt="calendrier"
-                style="
-                  vertical-align: middle;
-                  width: 16px;
-                  height: 16px;
-                  margin-right: 6px;
-                "
-              />Publié le 05 septembre 2025
-            </span>
-          </div>
-        </figure>
-
-        <!-- quatrième actu -->
-
-        <figure
-          style="
-            background: #f1f5f9;
-            border-radius: 8px;
-            padding: 16px;
-            margin: 0 0 24px 0;
-            display: flex;
-            align-items: center;
-            gap: 16px;
-          "
-        >
-          <img
-            src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/refs/heads/lgc-ecole/asset/promos.png"
-            alt="mobilité internationale"
-            width="96"
-            height="96"
-            style="
-              border-radius: 8px;
-              object-fit: cover;
-              border: 2px solid #e2e8f0;
-            "
-          />
-          <div style="flex: 1">
-            <figcaption
-              style="
-                font-weight: 600;
-                color: #0f172a;
-                font-size: 1.1rem;
-                margin: 10px;
-              "
-            >
-              Mobilité internationale : cap sur le monde
-            </figcaption>
-            <p style="margin: 10px; color: #334155; font-size: 0.98rem">
-              Nouvelles opportunités à l’étranger — stages, échanges et
-              partenariats : élargissez vos horizons et valorisez votre
-              parcours.
-            </p>
-            <span
-              style="
-                display: inline-block;
-                margin: 8px;
-                color: #64748b;
-                font-size: 0.7rem;
-              "
-            >
-              <img
-                src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
-                alt="calendrier"
-                style="
-                  vertical-align: middle;
-                  width: 16px;
-                  height: 16px;
-                  margin-right: 6px;
-                "
-              />Publié le 01 septembre 2025
-            </span>
-          </div>
-        </figure>
-
-        <!--autres-->
-        <div style="text-align: center; margin-top: 24px">
-          <p style="color: #64748b; font-size: 0.7rem">
-            La Grande Classe accélère — prenez part à l’aventure ! <br />
-            Ensemble, faisons grandir vos ambitions.
-          </p>
-          <a
-            href="https://www.linkedin.com/company/grande-classe"
-            style="
-              background: #2563eb;
-              color: #fff;
-              padding: 12px 32px;
-              text-decoration: none;
-              border-radius: 6px;
-              font-size: 1rem;
-              font-weight: 600;
-              display: inline-block;
-              margin: 10px;
-            "
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Je soutiens !
-          </a>
-        </div>
-      </main>
-      <footer
-        style="
-          padding: 16px;
-          text-align: center;
-          font-size: 0.7rem;
-          color: #64748b;
-        "
-      >
-        © 2025 La Grande Classe - Tous droits réservés.
-      </footer>
+      C'est Halloween à La Grande Classe : actualités, mobilité internationale
+      et innovation digitale à découvrir ce mois-ci.
     </div>
+    <div style="display: none; max-height: 0; overflow: hidden; mso-hide: all">
+      &nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;&nbsp;&zwnj;
+    </div>
+
+    <center style="width: 100%; background: #f3f4f6">
+      <!--[if mso]>
+      <table role="presentation" align="center" width="600" cellpadding="0" cellspacing="0"><tr><td>
+      <![endif]-->
+      <table
+        role="presentation"
+        width="100%"
+        cellpadding="0"
+        cellspacing="0"
+        style="
+          max-width: 600px;
+          margin: 32px auto;
+          background: #ffffff;
+          border-radius: 12px;
+          box-shadow: 0 4px 24px #0001;
+        "
+      >
+        <tr>
+          <td
+            style="
+              background: #1e293b;
+              padding: 32px 24px 16px 24px;
+              text-align: center;
+              border-radius: 12px 12px 0 0;
+            "
+          >
+            <img
+              src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/logo_blanc.png"
+              alt="La Grande Classe"
+              width="380"
+              style="display: block; width: 70%; max-width: 380px; height: auto; margin: 0 auto"
+            />
+            <p
+              style="
+                margin: 12px 0 0 0;
+                font-size: 1rem;
+                color: #cbd5e1;
+                font-family: 'Matangi', Arial, Helvetica, sans-serif;
+              "
+            >
+              Newsletter - octobre 2025
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding: 24px">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="padding: 0 0 16px 0">
+                  <table role="presentation" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="vertical-align: middle; padding-right: 8px">
+                        <img
+                          src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png"
+                          alt="LinkedIn"
+                          width="24"
+                          height="24"
+                          style="display: block"
+                        />
+                      </td>
+                      <td
+                        style="
+                          vertical-align: middle;
+                          font-size: 1.25rem;
+                          font-weight: 600;
+                          color: #1e293b;
+                          font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                        "
+                      >
+                        Nos dernières actualités sur LinkedIn
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- actualité du jour -->
+            <table
+              role="presentation"
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              style="background: #f1f5f9; border-radius: 8px; margin: 0 0 24px 0"
+            >
+              <tr>
+                <td style="padding: 16px; width: 112px" valign="middle">
+                  <img
+                    src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/halloween.png"
+                    alt="inscriptions ouvertes"
+                    width="96"
+                    height="96"
+                    style="
+                      display: block;
+                      border-radius: 8px;
+                      border: 2px solid #e2e8f0;
+                    "
+                  />
+                </td>
+                <td style="padding: 16px 16px 16px 0" valign="middle">
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      font-weight: 600;
+                      color: #0f172a;
+                      font-size: 1.1rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    C'est Halloween!
+                  </p>
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      color: #334155;
+                      font-size: 0.98rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    À La Grande Classe, même les esprits curieux trouvent leur
+                    voie… L’apprentissage n’a jamais été aussi envoûtant.
+                  </p>
+                  <table role="presentation" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
+                          alt="calendrier"
+                          width="16"
+                          height="16"
+                          style="display: block"
+                        />
+                      </td>
+                      <td
+                        style="
+                          vertical-align: middle;
+                          padding-left: 6px;
+                          color: #64748b;
+                          font-size: 0.7rem;
+                          font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                        "
+                      >
+                        Publié le 21 juillet 2026
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- deuxième actu -->
+            <table
+              role="presentation"
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              style="background: #f1f5f9; border-radius: 8px; margin: 0 0 24px 0"
+            >
+              <tr>
+                <td style="padding: 16px; width: 112px" valign="middle">
+                  <img
+                    src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/refs/heads/lgc-ecole/asset/burger_poulet.png"
+                    alt="pause déjeuner"
+                    width="96"
+                    height="96"
+                    style="
+                      display: block;
+                      border-radius: 8px;
+                      border: 2px solid #e2e8f0;
+                    "
+                  />
+                </td>
+                <td style="padding: 16px 16px 16px 0" valign="middle">
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      font-weight: 600;
+                      color: #0f172a;
+                      font-size: 1.1rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    Coulisses gourmandes : la pause déjeuner
+                  </p>
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      color: #334155;
+                      font-size: 0.98rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    Nos étudiants de la filière restauration signent un menu
+                    complet, équilibré et savoureux — savoir‑faire, passion et
+                    exigence au service du goût.
+                  </p>
+                  <table role="presentation" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
+                          alt="calendrier"
+                          width="16"
+                          height="16"
+                          style="display: block"
+                        />
+                      </td>
+                      <td
+                        style="
+                          vertical-align: middle;
+                          padding-left: 6px;
+                          color: #64748b;
+                          font-size: 0.7rem;
+                          font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                        "
+                      >
+                        Publié le 20 octobre 2025
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- troisième actu -->
+            <table
+              role="presentation"
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              style="background: #f1f5f9; border-radius: 8px; margin: 0 0 24px 0"
+            >
+              <tr>
+                <td style="padding: 16px; width: 112px" valign="middle">
+                  <img
+                    src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/refs/heads/lgc-ecole/asset/tasse_cafe.png"
+                    alt="événement"
+                    width="96"
+                    height="96"
+                    style="
+                      display: block;
+                      border-radius: 8px;
+                      border: 2px solid #e2e8f0;
+                    "
+                  />
+                </td>
+                <td style="padding: 16px 16px 16px 0" valign="middle">
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      font-weight: 600;
+                      color: #0f172a;
+                      font-size: 1.1rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    LGC accélère son innovation digitale
+                  </p>
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      color: #334155;
+                      font-size: 0.98rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    Nous lançons notre pôle digital pour accélérer
+                    l’innovation, amplifier notre visibilité et proposer une
+                    expérience apprenante encore plus engageante.
+                  </p>
+                  <table role="presentation" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
+                          alt="calendrier"
+                          width="16"
+                          height="16"
+                          style="display: block"
+                        />
+                      </td>
+                      <td
+                        style="
+                          vertical-align: middle;
+                          padding-left: 6px;
+                          color: #64748b;
+                          font-size: 0.7rem;
+                          font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                        "
+                      >
+                        Publié le 05 septembre 2025
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- quatrième actu -->
+            <table
+              role="presentation"
+              width="100%"
+              cellpadding="0"
+              cellspacing="0"
+              style="background: #f1f5f9; border-radius: 8px; margin: 0 0 24px 0"
+            >
+              <tr>
+                <td style="padding: 16px; width: 112px" valign="middle">
+                  <img
+                    src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/refs/heads/lgc-ecole/asset/promos.png"
+                    alt="mobilité internationale"
+                    width="96"
+                    height="96"
+                    style="
+                      display: block;
+                      border-radius: 8px;
+                      border: 2px solid #e2e8f0;
+                    "
+                  />
+                </td>
+                <td style="padding: 16px 16px 16px 0" valign="middle">
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      font-weight: 600;
+                      color: #0f172a;
+                      font-size: 1.1rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    Mobilité internationale : cap sur le monde
+                  </p>
+                  <p
+                    style="
+                      margin: 0 0 8px 0;
+                      color: #334155;
+                      font-size: 0.98rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                    "
+                  >
+                    Nouvelles opportunités à l’étranger — stages, échanges et
+                    partenariats : élargissez vos horizons et valorisez votre
+                    parcours.
+                  </p>
+                  <table role="presentation" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td style="vertical-align: middle">
+                        <img
+                          src="https://raw.githubusercontent.com/giusmili/News-Letter-LGC/lgc-ecole/asset/calendar-icon_34471.png"
+                          alt="calendrier"
+                          width="16"
+                          height="16"
+                          style="display: block"
+                        />
+                      </td>
+                      <td
+                        style="
+                          vertical-align: middle;
+                          padding-left: 6px;
+                          color: #64748b;
+                          font-size: 0.7rem;
+                          font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                        "
+                      >
+                        Publié le 01 septembre 2025
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+            <!-- appel à l'action -->
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+              <tr>
+                <td style="text-align: center; padding-top: 8px">
+                  <p
+                    style="
+                      color: #64748b;
+                      font-size: 0.7rem;
+                      font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                      margin: 0 0 16px 0;
+                    "
+                  >
+                    La Grande Classe accélère — prenez part à l’aventure !
+                    <br />
+                    Ensemble, faisons grandir vos ambitions.
+                  </p>
+                  <table
+                    role="presentation"
+                    cellpadding="0"
+                    cellspacing="0"
+                    style="margin: 0 auto"
+                  >
+                    <tr>
+                      <td bgcolor="#2563eb" style="border-radius: 6px">
+                        <a
+                          href="https://www.linkedin.com/company/grande-classe"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          style="
+                            display: inline-block;
+                            padding: 12px 32px;
+                            color: #ffffff;
+                            text-decoration: none;
+                            border-radius: 6px;
+                            font-size: 1rem;
+                            font-weight: 600;
+                            font-family: 'Matangi', Arial, Helvetica, sans-serif;
+                          "
+                        >
+                          Je soutiens !
+                        </a>
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+        <tr>
+          <td
+            style="
+              padding: 16px;
+              text-align: center;
+              font-size: 0.7rem;
+              color: #64748b;
+              font-family: 'Matangi', Arial, Helvetica, sans-serif;
+              border-radius: 0 0 12px 12px;
+            "
+          >
+            © 2025 La Grande Classe - Tous droits réservés.
+          </td>
+        </tr>
+      </table>
+      <!--[if mso]>
+      </td></tr></table>
+      <![endif]-->
+    </center>
   </body>
 </html>
